@@ -40,8 +40,6 @@
             // Randomly chooses a choice from the options array. This is the Computer's guess.
             var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
-            // appends user guesses together
-
 
 
             // This logic determines the outcome of the game (win/loss/guesses left), and increments the appropriate number
@@ -64,10 +62,6 @@
                             guessesleft = 9;
                         }
                     }
-
-
-                    // This code determines the total number of guesses user has left. Since guessesleft starts at 9, make it so that each time losses goes up 1
-                    // then guessesleft goes down 1. Once guesses left reaches 0 then the game resets
 
 
                     // Display the user and computer guesses, and wins/losses/ties
